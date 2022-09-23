@@ -185,7 +185,7 @@
 
 </div>
 
-<div class="imagecta">
+<div class="imagecta" style="list-style: none;">
     <div class="imagectaimage">
         <img src="images/cta-engineering-image.png">
     </div>
@@ -205,7 +205,7 @@
 
 <div class="imagecta">
 
-    <div class="imagectacontent">
+    <div class="imagectacontent" style="list-style: none;">
         <h3 style="color:#006394"> <strong> Offshore Solutions </strong> <br> to Empower Your Business</h3> <br>
         <strong> We use a combination of existing & emerging technologies to deliver tailored workforce solutions, including blockchain, IoT, big data analytics, A.I., machine learning, RPA, & testing automation.</strong>
         <br> <br>

@@ -1981,7 +1981,7 @@ textarea {
 textarea {
   height: 200px;
 }
-input:focus,
+/* input:focus,
 select:focus,
 textarea:focus {
   border: 2px solid #ff8300;
@@ -2008,7 +2008,7 @@ input:-ms-input-placeholder {
 }
 input:focus:-ms-input-placeholder {
   color: #ff8300;
-}
+} */
 .styled-select select {
   background: rgba(255, 255, 255, 0.6)
     url(/assets/images/aa23b7ee329e64ea337f513e47580620f5b4eb8f/arrows.png)

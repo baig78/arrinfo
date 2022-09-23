@@ -194,41 +194,21 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="pleaseEnterYourFullName" type="text" placeholder="Please enter your full name" data-sb-validations="required" />
-                                                <div class="invalid-feedback" data-sb-feedback="pleaseEnterYourFullName:required">Please enter your full name is required.</div>
+                                                <input class="form-control" id="name" type="text" placeholder=" Name" data-sb-validations="required" />
+                                                <div class="invalid-feedback" data-sb-feedback="pleaseEnterYourFullName:required"> Name.</div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3">
-                                                <select class="form-select" id="country" aria-label="Country">
-                                            <option value="United States">United States</option>
-                                            <option value="Australia">Australia</option>
-                                            <option value="Canada">Canada</option>
-                                            <option value="Japan">Japan</option>
-                                            <option value="United Kingdom">United Kingdom</option>
-                                            <option value="Others">Others</option>
-                                        </select>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-floating mb-3">
-                                                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                                <input class="form-control" id="email" type="email" placeholder="Email Address" data-sb-validations="required,email" />
                                                 <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
                                                 <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-floating mb-3">
-                                                <input class="form-control" id="city" type="text" placeholder="City" data-sb-validations="required" />
-                                                <div class="invalid-feedback" data-sb-feedback="city:required">City is required.
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                      
                                     </div>
+
+                         
 
                                     <div class="row">
                                         <div class="col-md-6">
@@ -240,7 +220,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="jobTitle" type="text" placeholder="Job Title" data-sb-validations="required" />
+                                                <input class="form-control" id="job_title" type="text" placeholder="Job Title" data-sb-validations="required" />
                                                 <div class="invalid-feedback" data-sb-feedback="jobTitle:required">Job Title is required.
                                                 </div>
                                             </div>
@@ -253,7 +233,7 @@
                                     </div>
 
                                     <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                                        <textarea class="form-control" id="sendMessageButton" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
                                         <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.
                                         </div>
                                     </div>
